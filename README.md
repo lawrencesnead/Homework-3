@@ -13,13 +13,13 @@ For companies that handle large amounts of sensitive data, weak passwords can po
 
 # Acceptance Criteria
 
-GIVEN that a user needs a new, secure password
+GIVEN that a user needs a new, secure password,
 
-THEN prompted for password criteria
+THEN, they prompted for password criteria,
 
-THEN a password is generated at the touch of a button,
+THEN, a password is generated at the touch of a button,
 
-THEN easily attached to clipboard for use.
+THEN, easily attached to clipboard for use.
 
 
 
