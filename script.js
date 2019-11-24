@@ -5,6 +5,7 @@ var charTypeLower = confirm("Would you like lowercase characters?")
 var charTypeUpper = confirm("Would you like uppercase characters?")
 
 var generateBtn = document.querySelector("#gen")
+console.log(generateBtn)
 var copyBtn = document.querySelector("#copy")
 var passwordBox = document.querySelector("#pass-final")
 
@@ -42,12 +43,12 @@ var generatePass = function () {
     passwordBox.textContent = pass
 }
 
-function copyText(){
+var copyText = function () {
     passwordBox.textContent.select()
     document.execCommand('copy')
    }
 
-generateBtn.addEventListener("click" , generatePass())
-copyBtn.addEventListener("click" , copyText())
+generateBtn.addEventListener("click", generatePass)
+copyBtn.addEventListener("click" , copyText)
 
 
