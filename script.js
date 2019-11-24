@@ -15,7 +15,7 @@ var passwordBox = document.querySelector("#pass-final")
 
 // Initial varibales with different sets of characters to select from
 
-var specialChars = " !\"/#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+var specialChars = " !\"/#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
 var numChars = "0123456789"
 var lowerChars = "abcdefghijklmnopqrstuvwxyz"
 var upperChars = lowerChars.toUpperCase()
