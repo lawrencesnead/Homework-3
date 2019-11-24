@@ -1,6 +1,7 @@
 // Prompts for user to select what sort of password they would like to gnerate
 
 var passLength = prompt("How many characters would you like your password to be? Must be between 8 and 128.")
+var passLengthChecker = Number(passLength)
 var charTypeSpec = confirm("Would you like special characters?")
 var charTypeNum = confirm("Would you like numeric characters?")
 var charTypeLower = confirm("Would you like lowercase characters?")
@@ -21,9 +22,28 @@ var upperChars = lowerChars.toUpperCase()
 
 var charListFinal = ""
 
+// Helper function to check and make sure user selected password length between 8-128
+
+var choseLengthCorrectly = function () {
+    alert("You must select a password length between 8 and 128")
+    passLength = prompt("How many characters would you like your password to be? Must be between 8 and 128.")
+    passLengthChecker = Number(passLength)
+}
+
+// Helper function to check to make sure at least one type of character is selected
+
+var choseCharList = function () {
+    alert("You must select at least one of the 4 character types.")
+    charTypeSpec = confirm("Would you like special characters?")
+    charTypeNum = confirm("Would you like numeric characters?")
+    charTypeLower = confirm("Would you like lowercase characters?")
+    charTypeUpper = confirm("Would you like uppercase characters?")
+    
+}
 // Helper function to make final character list to select from for password generation and then returns the completed list
 
 var generateFinalCharList = function () {
+    
     if (charTypeSpec === true) {
         charListFinal += specialChars
     }
@@ -69,4 +89,11 @@ var copyText = function () {
 generateBtn.addEventListener("click", generatePass)
 copyBtn.addEventListener("click" , copyText)
 
+// While loops until the user selects a character type
+while (passLengthChecker < 8 || passLengthChecker > 128) {
+    choseLengthCorrectly()
+}
+while (charTypeLower == false && charTypeNum == false && charTypeSpec == false && charTypeUpper === false) {
+    choseCharList()
+}
 
