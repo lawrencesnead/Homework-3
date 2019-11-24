@@ -2,7 +2,7 @@
 
 var passLength = prompt("How many characters would you like your password to be? Must be between 8 and 128.")
 var passLengthChecker = Number(passLength)
-var charTypeSpec = confirm("Would you like these special characters?  !\"/#$%&'()*+,-./:;<=>?@[\\]^_`{|}~")
+var charTypeSpec = confirm("Would you like these special characters, which includes a space?  !\"/#$%&'()*+,-./:;<=>?@[\\]^_`{|}~")
 var charTypeNum = confirm("Would you like numeric characters 0-9?")
 var charTypeLower = confirm("Would you like lowercase characters?")
 var charTypeUpper = confirm("Would you like uppercase characters?")
