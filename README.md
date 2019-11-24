@@ -1,7 +1,7 @@
 # Homework-3
 Project name: Password Generator!
 
-![Screenshot](https://raw.githubusercontent.com/lawrencesnead/Homework-3/assets/images/Password_Generator.png)
+![Screenshot](assets/images/Password_Generator.png)
 
 Description: This is a basic website I developed for practice and homework using bootstrap. It is a relatively simple script that generates a password between 8 and 128 characters from various character lists of your choosing. It also features a sticky footer, bootstrap content, and CSS Styling.
 
