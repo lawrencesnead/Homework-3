@@ -60,7 +60,7 @@ var copyText = function () {
     document.body.appendChild(textArea);
     textArea.select();
     document.execCommand("Copy");
-    alert("\""+textArea.value+"\" has been copied to the clipboard!")
+    alert("Your generated password has been copied to the clipboard!")
     textArea.remove();
    }
 

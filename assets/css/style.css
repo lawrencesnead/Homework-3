@@ -10,16 +10,19 @@ h1 {
     padding-bottom: 20px;
     font-size: 40;
     line-height: 40px;
+    color: rgba(70, 66, 66, 0.993);
+    text-shadow: 2px 2px 3px gray;
 }
 h2 {
     padding: 30px 0 20px 15px;
     font-size: 35px;
     border-bottom: 2px solid lightgray;
+    color: gray;
 }
 
 h6 {
     text-align: center;
-    color: grey;
+    color: darkgrey;
     font-size: 30px;
 }
 
@@ -47,9 +50,8 @@ body {
     width: 100%;
     margin: 30px auto 30px auto;
 }
-/* .container {
-    margin: 10px 10px 10px 10px;
-} */
+
+/* Button settings */
 
 #btns {
     border-top: 2px solid lightgray;
