@@ -1,5 +1,4 @@
 
-
 /* general settings */
 
 
@@ -15,7 +14,7 @@ h1 {
 h2 {
     padding: 30px 0 20px 15px;
     font-size: 35px;
-    border-bottom: 2px solid #6e6e6e;
+    border-bottom: 2px solid lightgray;
 }
 
 h6 {
@@ -38,6 +37,7 @@ body {
     margin: 0 auto;
     clear: both;
     padding: 30px 20px 30px 20px;
+    box-shadow: 0 0 30px gray;
 
 }
 .password{
@@ -46,9 +46,10 @@ body {
     height: max-content;
     width: 90%;
     margin: 30px auto 30px auto;
-
-
-
+}
+.container {
+    padding-left: 30px;
+    padding-right: 30px; 
 }
 
 #btns {
