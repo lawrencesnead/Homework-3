@@ -19,7 +19,7 @@ THEN, they are prompted for password criteria,
 
 THEN, a password is generated at the touch of a button,
 
-THEN, easily attached to clipboard for use.
+THEN, can easily be attached to clipboard for use.
 
 
 
