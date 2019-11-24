@@ -1,5 +1,5 @@
 ## Password Generator
-## User Story
+# User Story
 
 Aa an employee with access to sensitive data
 
@@ -7,17 +7,19 @@ I want to randomly generate a password that meets certain criteria
 
 So that I can create a strong password that provides greater security
 
-## Business Context
+# Business Context
 
 For companies that handle large amounts of sensitive data, weak passwords can pose a real security threat. An application that can generate strong passwords quickly and effortlessly saves employees time and ensures secure access to data.
 
-## Acceptance Criteria
+# Acceptance Criteria
 
 GIVEN that a user needs a new, secure password
 
-WHEN prompted for password criteria
+THEN prompted for password criteria
 
-THEN a password is generated
+THEN a password is generated at the touch of a button,
+
+THEN easily attached to clipboard for use.
 
 
 
