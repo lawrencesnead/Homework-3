@@ -1,5 +1,5 @@
 // Prompts for user to select what sort of password they would like to gnerate
-
+alert("Welcome to Lawrence's Password Generator!")
 var passLength = prompt("How many characters would you like your password to be? Must be between 8 and 128.")
 var passLengthChecker = Number(passLength)
 var charTypeSpec = confirm("Would you like these special characters, which includes a space?  !\"/#$%&'()*+,-./:;<=>?@[\\]^_`{|}~")
