@@ -15,7 +15,7 @@ For companies that handle large amounts of sensitive data, weak passwords can po
 
 GIVEN that a user needs a new, secure password,
 
-THEN, they prompted for password criteria,
+THEN, they are prompted for password criteria,
 
 THEN, a password is generated at the touch of a button,
 
