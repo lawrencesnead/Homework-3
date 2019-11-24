@@ -44,8 +44,13 @@ var generatePass = function () {
 }
 
 var copyText = function () {
-    passwordBox.textContent.select()
-    document.execCommand('copy')
+    var copyText = document.getElementById("pass-final");
+    var textArea = document.createElement("textarea");
+    textArea.value = copyText.textContent;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("Copy");
+    textArea.remove();
    }
 
 generateBtn.addEventListener("click", generatePass)
