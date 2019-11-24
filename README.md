@@ -43,4 +43,6 @@ University of Richmond Full Stack Deveolpment Bootcamp
 
 Lawrence Snead, the one and only!
 
-License: ...
+### License: 
+
+...
